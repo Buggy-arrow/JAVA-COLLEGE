@@ -13,7 +13,7 @@ import java.util.*;
 public class SolLinEquation
 {
 	public static void main(String[]args)
-	{
+	{	
 		Scanner sc = new Scanner(System.in);
 		int a,b,c,d,e,f;
 
