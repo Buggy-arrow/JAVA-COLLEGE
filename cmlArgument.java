@@ -6,10 +6,14 @@ public class cmlArgument
 {
 	public static void main(String[]args)
 	{
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
-		System.out.println("\nSum = " + (a + b));
-		System.out.println("Product = " + (a * b));
+		int sum = 0,product = 1;
+		for(int i = 0;i < args.length;i++)
+		{
+			sum += Integer.parseInt(args[i]);
+			product *= Integer.parseInt(args[i]);
+		}
+		System.out.println("\nSum = " + sum);
+		System.out.println("Product = " + product);
 		return;
 	}
 }
